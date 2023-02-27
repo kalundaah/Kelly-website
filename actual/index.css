@@ -1,0 +1,25 @@
+body{
+    /* background : linear-gradient(white, maroon); */
+    background-color: antiquewhite;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin:0;
+}
+#nav{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+       
+}
+.line{
+    background-color: white;
+    border: solid white 1px;
+    height: 115px;
+  
+}
+.pane{
+    color: white;
+    background-color: maroon;
+    padding:50px 150px;
+    align-items:center ;    
+}

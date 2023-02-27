@@ -1,10 +1,20 @@
-.fullhead{
+body{
+    font-family: 'Righteous', cursive;   
+}
+#fullhead{
     background-color: maroon;
 }
 .bodycontent{
-    background-color: beige;
+    /* background-color: beige; */
+    display:flex;
+    flex-direction: column;
+
 }
-.bar{
+#buttons{
+    flex-direction:column;
+    justify-content: center;
+}
+#bar{
     display: flex;
     position: relative;
     color: white;
