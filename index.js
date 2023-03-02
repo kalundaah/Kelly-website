@@ -1,3 +1,9 @@
-let pic1 = document.getElementById("slide1")
-let pic2 = document.getElementById("slide2")
-let pic3 = document.getElementById("slide3")
+let show = document.getElementById("slide")
+let counter = 2
+let path = "images/slide"
+let format = ".jpeg"
+let fulpat = path + counter + format
+function nextslide(){
+    show.src = "images/slide2.jpeg";
+
+}

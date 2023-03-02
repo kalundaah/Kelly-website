@@ -10,9 +10,17 @@ body{
     flex-direction: column;
 
 }
+.line{
+    background-color: white;
+    border: solid white 1px;
+    height: 130px;
+  
+}
 #buttons{
     flex-direction:column;
     justify-content: center;
+    margin-top: 3vh;
+    
 }
 #bar{
     display: flex;
@@ -45,4 +53,30 @@ body{
 }
 .colorblock{
     color: beige;
+}
+#pics{
+    justify-content: end;
+    align-items: end;
+    margin-left: 1vh;
+}
+#back{
+   border: solid blue 5px;
+   margin-left: 100px;
+    
+}
+#invitory{
+    margin-left: 50px;
+}
+.slide{
+    height: 510px;
+    width: 400px;
+}
+.slide:hover {
+    animation-name: bounce;
+    animation-timing-function: ease;
+}
+@keyframes bounce {
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(-50px); }
+  100% { transform: translateY(0); }
 }

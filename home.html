@@ -16,26 +16,40 @@
         <div class="container-fluid">
             <nav id="bar">
                 <div class="TB"><div class="col"><img src="images/TDC logo.jpeg" alt="logo" style="width:10vh";></div></div>
+                <div class="line"></div>
                 <div class="col"><a class="TB" href="home.html" style="text-decoration:none;"><h1 class = "bt">Home</h1></a></div>
+                <div class="line"></div>
                 <div class="col"><a class="TB" href="about.html" style="text-decoration:none;"><h1 class = "bt">About Us</h1></a></div>
+                <div class="line"></div>
                 <div class="col"><a class="TB" href="products.html" style="text-decoration:none;"><h1 class = "bt">Products</h1></a></div>
+                <div class="line"></div>
                 <div class="col"><a class="TB" href="contact.html" style="text-decoration:none;"><h1 class = "bt">Contact Us</h1></a></div>
+                <div class="line"></div>
             </nav>
         </div>
     </div>
     <div class="bodycontent">
-        <h1>Your home for antique wear</h1>
+        <h1 id = "invitory">Your home for antique wear</h1>
         <div id="pics">
-        <div ></div>
-        <img id="slide1" src="images/TDC logo.jpeg" alt="pic1" width="250px">
-        <img id="slide2" src="images/TDC logo.jpeg" alt="pic1" width="250px">
-        <img id="slide3" src="images/TDC logo.jpeg" alt="pic1" width="250px">
-        <div class="buttons">
-            <button class="butdesign" id="previous"><</button>
-            <button class="butdesign" id="next">></button>
-        </div>
+            <div id="back">
+                <img class="slide" src="images/slide1.jpeg" alt="first pic">
+                <img class="slide" src="images/slide2.jpeg" alt="first pic">
+                <img class="slide" src="images/slide3.jpeg" alt="first pic">
+                <img class="slide" src="images/slide4.jpeg" alt="first pic">
+                <img class="slide" src="images/slide5.jpeg" alt="first pic">
+                <img class="slide" src="images/slide6.jpeg" alt="first pic">
+                <img class="slide" src="images/slide7.jpeg" alt="first pic">
+            </div>
+            <!-- <img id="slide1" src="images/TDC logo.jpeg" alt="pic1" width="250px">
+            <img id="slide2" src="images/TDC logo.jpeg" alt="pic1" width="250px">
+            <img id="slide3" src="images/TDC logo.jpeg" alt="pic1" width="250px"> -->
+            <div id="buttons">
+                <button class="butdesign" id="previous"><</button>
+                <button class="butdesign" id="next" onclick="nextslide()">></button>
+            </div>
         </div>
     </div>        
     <script src = "bootstrap/js/bootstrap.bundle.js"></script>
+    <script src="index.js"></script>
 </body>
 </html>
